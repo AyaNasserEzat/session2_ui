@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:session2_ui/screen2.dart';
 import 'package:session2_ui/task2_ui.dart';
 
 void main (){
@@ -10,7 +11,8 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home :task2_ui(),
+      debugShowCheckedModeBanner: false,
+      home :screen2(),
     );
   }
 }
